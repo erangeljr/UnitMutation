@@ -36,6 +36,9 @@
     <DocumentationFile>bin\Release\UnitConverter.Forms.Plugin.Abstractions.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="IDimension.cs" />
+    <Compile Include="IQuantity.cs" />
+    <Compile Include="IUnit.cs" />
     <Compile Include="UnitConverterControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
